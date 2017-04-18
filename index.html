@@ -787,7 +787,7 @@
    If your current R version is 3.2.5 or older, you will need to re-install 
    packages and will get the latest versions of all packages by default;
    please be careful if you depend on a particular release of a package.
-   Feel free to contact the organizers with concerns.
+   Feel free to contact the organizers if you have any concerns.
   
   <div class="row">
     <div class="col-md-4">
@@ -837,6 +837,21 @@
       install.packages("dplyr")
       install.packages("tidyr")</pre>
     (while you are connected to the Internet).
+	You may get a warning or error while installing these packages. Read it
+	carefully. If R asks you if you want to write the packages to a different
+	directory, say 'yes'. If R simply gives you a permission error and then the
+	installation fails, **and you are using Windows**, try the following:
+
+	<ul>
+		<li>In **Program Files** find the R folder</li>
+		<li>Right-click on the R folder and go to Properties</li>
+		<li>Choose the **Security** tab</li>
+		<li>Highlight the **Users** option and click Edit</li>
+		<li>Check all "Allow" options</li>
+		<li>Click 'Save' or 'OK'</li>
+	</ul>
+
+	And then restart R and try to install the packages again.
   </p>
 </div> <!-- End of 'R' section. -->
 
